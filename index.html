@@ -12,7 +12,7 @@
     <meta name="description" content="Personal Website" />
     <!-- Link's -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="./img/icon(title).png" />
+    <link rel="icon" href="./img/icons/icon(title).png" />
 
     <title>RRyanDEV</title>
   </head>
@@ -20,20 +20,124 @@
   <body>
     <div class="navbar">
       <div class="navbar-container">
-        <div class="nav-item"><a class="nav-item-link" href="">Home</a></div>
-        <div class="nav-item"><a class="nav-item-link" href="">About</a></div>
-        <div class="nav-item"><a class="nav-item-link" href="">Projects</a></div>
-      </div>
-    </div>
-
-    <div class="back">
-      <div class="proavatar">
-        <img src="./img/pro.jpg" alt="Avatar" class="avatar" />
-        <div class="proraizT">
-          <div class="pro-headline">RRyanDEV</div>
-          <div class="pro-text">Web Front-End Developer</div>
+        <div class="nav-item"><a class="nav-item-link" href="#hero">Home</a></div>
+        <div class="nav-item"><a class="nav-item-link" href="#about">About</a></div>
+        <div class="nav-item"><a class="nav-item-link" href="#projects">Projects</a>
         </div>
       </div>
     </div>
+    <!-- Profile -->
+    <div class="back">
+      <div id="hero" class="hero">
+        <div class="hero-container">
+          <div class="hero-profile">
+            <div class="hero-profile-img"></div>
+            <div class="hero-profile-text">
+              <div class="pro-headline">RRyanDev</div>
+              <div class="pro-text">Web Front-End Developer</div>
+            </div>
+            <div class="pro-icons">
+              <a href="https://github.com/RRyanDEV">
+                <img src="./img/icons/github-icon.png"/></a>
+              <a href="https://www.linkedin.com/in/rryandev/">
+                <img src="./img/icons/linkedin-icon.png"/></a>
+              <a href="https://www.instagram.com/reeal_ryaan/">
+                <img src="./img/icons/instagram-icon.png"/></a>
+              <a href="https://t.me/ryaanreeal">
+                <img src="./img/icons/telegram-icon.png"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills and Education(About) -->
+    <div class="row">
+      <div id="about" class="col about-educationcol">
+          <div class="title">Education</div>
+          <div class="about-timeline">
+              <div class="timeline-card timeline-card-green">
+                  <div class="timeline-card-title">Cursando atualmente o IFRJ - Institudo Federal Do Rio De Janeiro</div>
+                  <div class="timeline-card-subtitle">Curso Técnico &middot; Informática para internet</div>
+                  <div class="timeline-card-time">2022</div>
+              </div>
+              <div class="timeline-card timeline-card-red">
+                <div class="timeline-card-title">Curso de Montagem e Manutenção de computadores</div>
+                <div class="timeline-card-subtitle">CONCLUIDO &middot; FAETEC</div>
+                <div class="timeline-card-time">2020</div>
+            </div>
+          </div>
+      </div>
+
+
+    <div class="col about-experiencecol">
+      <div class="title">Skills</div>
+          <div class="timeline-card timeline-card-blue">
+              <div class="timeline-card-title">BOA COMUNICAÇÃO</div>
+              <div class="timeline-card-content">&middot; Habilidade para se relacionar com as pessoas e redigir documentos.</div>
+          </div>
+          <div class="timeline-card timeline-card-blue">
+              <div class="timeline-card-title">PRÓ-ATIVIDADE</div>
+              <div class="timeline-card-content">&middot; Capaz de resolver problemas e conduzir demandas por conta própria, sem precisar de constante supervisão.</div>
+          </div>
+          <div class="timeline-card timeline-card-red">
+              <div class="timeline-card-title">PERFECCIONISTA</div>
+              <div class="timeline-card-content">&middot; Regido sobre o princípio de que o pouco não é o bastante, e há sempre no que melhorar.</div>
+          </div>
+          <div class="timeline-card timeline-card-green">
+              <div class="timeline-card-title">COLABORAÇÃO EM EQUIPE</div>
+              <div class="timeline-card-content">&middot; Capaz de se relacionar bem com a equipe e trabalhar em sinergia alcançar o resultado desejado.</div>
+          </div>
+          <div class="timeline-card timeline-card-green">
+              <div class="timeline-card-title">FACILIDADE DE APRENDIZADO</div>
+              <div class="timeline-card-content">&middot; Ágil para aprender novos processos.</div>
+          </div>
+      </div>
+  </div>
+  <!-- Pojects -->
+  <div id="projects" class="project">
+    <div class="container project-container">
+        <div class="row">
+            <div class="title">Projects</div>
+        </div>
+        <div class="row project-row">
+
+            <div class="col project-col">
+                <div class="project-card">
+                    <div class="project-card-cover project-card-website"></div>
+                    <div class="project-card-content">
+                        <div class="project-card-title">Personal Website</div>
+                    </div>
+                    <a target="_blank" href="https://github.com/RRyanDEV/Master-V1">
+                        <div class="project-card-btn project-card-blackbutton">GitHub</div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col project-col">
+                <div class="project-card">
+                    <div class="project-card-cover project-card-dexcraft"></div>
+                    <div class="project-card-content">
+                        <div class="project-card-title">DexCraft</div>
+                    </div>
+                    <a target="_blank" href="https://github.com/RRyanDEV/WebSite-DexCraftServer">
+                        <div class="project-card-btn project-card-blackbutton">GitHub</div>
+                    </a>
+                </div>
+            </div>
+            <div class="col project-col">
+              <div class="project-card">
+                  <div class="project-card-cover project-card-readme"></div>
+                  <div class="project-card-content">
+                      <div class="project-card-title">ReadMe Profile</div>
+                  </div>
+                  <a target="_blank" href="https://github.com/RRyanDEV/RRyanDEV">
+                      <div class="project-card-btn project-card-blackbutton">GitHub</div>
+                  </a>
+              </div>
+          </div>
+          <div class="footer">
+            Source: <a href="https://github.com/RRyanDEV/Master-V1" id="redir"> https://github.com/RRyanDEV/Master-V1</a>
+        </div>
   </body>
 </html>
