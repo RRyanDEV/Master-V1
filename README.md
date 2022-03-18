@@ -2,7 +2,6 @@
 
 First iteration of my website. Built as an exploration into the unknown.
 
-
 ## Preview
 
 <p align="center">
