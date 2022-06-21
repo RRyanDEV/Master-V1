@@ -383,11 +383,15 @@ body {
 .project-card-website {
   background-image: url(./img/preview.png);
 }
-.project-card-dexcraft {
-  background-image: url(./img/dc-pj.png);
-}
+  /* .project-card-dexcraft {
+    background-image: url(./img/dc-pj.png);
+  } */
 .project-card-readme {
   background-image: url(./img/rm-pj.png);
+}
+.project-card-web {
+  background-image: url(./img/wt-pj.png);
+  
 }
 
 .project-card-content {
