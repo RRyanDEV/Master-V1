@@ -389,6 +389,9 @@ body {
 .project-card-web {
   background-image: url(./img/wt-pj.png);
 }
+.project-card-vscode{
+  background-image: url(./img/vs-pj.png);
+}
 
 .project-card-content {
   padding: 1rem;
